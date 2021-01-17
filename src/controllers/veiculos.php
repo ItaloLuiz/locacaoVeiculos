@@ -74,6 +74,25 @@ class VeiculoController
         return json_encode($result);
     }
 
+    public function listarLocados($request, $response, array $args)
+    {
+        $query = QB::table('tbl_veiculos')
+            ->select('*')
+            ->where('status_veiculo', '=', 'locado');
+        $result = $query->get();
+        return json_encode($result);
+    }
+
+    public function listarPorId($request, $response, array $args)
+    {
+        $id_veiculo = $args['id'];
+        $query = QB::table('tbl_veiculos')
+            ->select('*')
+            ->where('id_veiculo', '=', $id_veiculo);
+        $result = $query->get();
+        return json_encode($result);
+    }
+
 
     public function update($request, $response, array $args)
     {
