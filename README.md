@@ -2,8 +2,17 @@
 
 ## Lib/ Framework utilizado
   
-   [Slim Framework, versão 3](https://github.com/slimphp/Slim "Slim Framework, versão 3")
-   [Pixie Query Builder](https://github.com/usmanhalalit/pixie "Pixie Query Builder")
+    - [Slim Framework, versão 3](https://github.com/slimphp/Slim "Slim Framework, versão 3")
+    - [Pixie Query Builder](https://github.com/usmanhalalit/pixie "Pixie Query Builder")
+
+## Recursos extras
+
+    - Foi desenvolvido um pequeno front para consumir a API
+      o desenvolvimento foi em REACT JS, mas trata-se de uma simples 
+      implementação, o objetivo foi ajudar nos testes das rotas.
+    - OBS: usei também o insominia para testar a API.
+
+    - [Front Desenvolvido](https://github.com/ItaloLuiz/frontLocacao/tree/master "Front Desenvolvido")
 
 ## Descrição
 
@@ -138,3 +147,9 @@
     ENGINE=InnoDB
     AUTO_INCREMENT=0;
    ```
+
+## Informações Finais
+
+    - Para essa versão não foi criado uma validação de acesso, mas pretendo implementar posteriormente.
+    - O front não estava incluso nos requisitos mas achei interessante até para me ajudar
+      nos testes "visuais".
