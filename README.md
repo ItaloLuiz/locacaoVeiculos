@@ -2,8 +2,8 @@
 
 ## Lib/ Framework utilizado
   
-    - [Slim Framework, versão 3](https://github.com/slimphp/Slim "Slim Framework, versão 3")
-    - [Pixie Query Builder](https://github.com/usmanhalalit/pixie "Pixie Query Builder")
+ [Slim Framework, versão 3](https://github.com/slimphp/Slim "Slim Framework, versão 3")
+ [Pixie Query Builder](https://github.com/usmanhalalit/pixie "Pixie Query Builder")
 
 ## Recursos extras
 
@@ -12,7 +12,7 @@
       implementação, o objetivo foi ajudar nos testes das rotas.
     - OBS: usei também o insominia para testar a API.
 
-    - [Front Desenvolvido](https://github.com/ItaloLuiz/frontLocacao/tree/master "Front Desenvolvido")
+ [Front Desenvolvido](https://github.com/ItaloLuiz/frontLocacao/tree/master "Front Desenvolvido")
 
 ## Descrição
 
