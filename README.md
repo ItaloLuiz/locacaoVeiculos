@@ -1,13 +1,18 @@
 # Escribo - Teste Técnico 03
 
+## Lib/ Framework utilizado
+  
+   [Slim Framework, versão 3](https://github.com/slimphp/Slim "Slim Framework, versão 3")
+   [Pixie Query Builder](https://github.com/usmanhalalit/pixie "Pixie Query Builder")
+
 ## Descrição
 
-  1. Seu sistema deve permitir o cadastro, edição, remoção e a possibilidade de retornar
-     uma lista de carros disponíveis para locação.
+    1. Seu sistema deve permitir o cadastro, edição, remoção e a possibilidade de retornar
+        uma lista de carros disponíveis para locação.
 
-  2. Seu sistema deve possibilitar que um veículo seja alugado, armazenando os dados
-     de contato da pessoa que o alugou. O sistema também deve permitir que o veículo
-     seja devolvido.
+    2. Seu sistema deve possibilitar que um veículo seja alugado, armazenando os dados
+        de contato da pessoa que o alugou. O sistema também deve permitir que o veículo
+        seja devolvido.
 
 ## Requisitos
 
