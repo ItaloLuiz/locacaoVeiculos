@@ -12,6 +12,14 @@ class LocacaoController
         return json_encode($result);
     }
 
+    public function listarHistorico($request, $response, array $args)
+    {
+        $query = QB::table('tbl_veiculo_locados')
+            ->select('*');
+        $result = $query->get();
+        return json_encode($result);
+    }
+
     public function locar($request, $response)
     {
         $parsedBody = $request->getParsedBody();
